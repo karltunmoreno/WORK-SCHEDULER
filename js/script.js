@@ -1,12 +1,11 @@
 var button = $('.saveBtn')
 
-
 //Add current date at the top of the planner 
 
 $(document).ready(function () {
   var date = moment().format('dddd MMMM Do');
 
-  $('#currentDay').append(currentDay);
+  $('#currentDay').text(date);
 
   //Create code that adds in business hours (9am - 5pm) into file for adding in hourly events to the left of the 
   //event text box
@@ -52,15 +51,15 @@ $(document).ready(function () {
 
   })
 
-  $('#9 textarea').val(localStorage.getItem('9').replace(/['"]+/g, ''));
-  $('#10 textarea').val(localStorage.getItem('10').replace(/['"]+/g, ''));
-  $('#11 textarea').val(localStorage.getItem('11').replace(/['"]+/g, ''));
-  $('#12 textarea').val(localStorage.getItem('12').replace(/['"]+/g, ''));
-  $('#13 textarea').val(localStorage.getItem('13').replace(/['"]+/g, ''));
-  $('#14 textarea').val(localStorage.getItem('14').replace(/['"]+/g, ''));
-  $('#15 textarea').val(localStorage.getItem('15').replace(/['"]+/g, ''));
-  $('#16 textarea').val(localStorage.getItem('16').replace(/['"]+/g, ''));
-  $('#17 textarea').val(localStorage.getItem('17')).replace(/['"]+/g, '');
+  $('#9 textarea').val(localStorage.getItem('9'));
+  $('#10 textarea').val(localStorage.getItem('10'));
+  $('#11 textarea').val(localStorage.getItem('11'));
+  $('#12 textarea').val(localStorage.getItem('12'));
+  $('#13 textarea').val(localStorage.getItem('13'));
+  $('#14 textarea').val(localStorage.getItem('14'));
+  $('#15 textarea').val(localStorage.getItem('15'));
+  $('#16 textarea').val(localStorage.getItem('16'));
+  $('#17 textarea').val(localStorage.getItem('17'));
 //  console.log(parent);
 
   //Use styling to transform pointer into a disk icon at the time of click event (saving of event)

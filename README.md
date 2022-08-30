@@ -2,7 +2,7 @@
 ### Work Scheduler
 Schedule on the go!
 
-![Ss](https://karltunmoreno.github.io/WORK-SCHEDULER/)
+![Ss](https://karltunmoreno.github.io/My-Portfolio/assets/images/6666.jpg)
 
 
 __________________________________________________________________________________________________________________________________________________________________
